@@ -1,7 +1,7 @@
 spring:
    datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/olx_users
+    url: jdbc:mysql://localhost:3306/olx_users
     username: root
     password: root
    jpa:
@@ -11,6 +11,6 @@ spring:
          dialect: org.hibernate.dialect.MySQL8Dialect
    data:
     mongodb:
-     host: 127.0.0.1
+     host: localhost
      port: 27017
      database: zendb
